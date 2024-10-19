@@ -17,13 +17,13 @@ buttonUp.addEventListener("click", () => {
     table.style.transform = "translateY(-25px) scale(1.2)";
   } else if (window.innerWidth <= 539) {
     table.style.transform = "translateY(-57px) scale(1.2)";
-  } else table.style.transform = "translateY(-57px) ";
+  } else table.style.transform = "translateY(-57px)";
 });
 
 buttonDown.addEventListener("click", () => {
   if (window.innerWidth <= 539) {
     table.style.transform = "translateY(0) scale(1.2)";
-  } else table.style.transform = "translateY(0) scale(1.2)";
+  } else table.style.transform = "translateY(0)";
 });
 
 women.addEventListener("animationend", () => {
