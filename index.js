@@ -3,8 +3,6 @@ const buttonDown = document.querySelector(".button-down");
 const table = document.querySelector(".img-active");
 const women = document.querySelector(".women");
 
-// console.log(typeof window.innerWidth);
-
 window.addEventListener("resize", () => {
   if (window.innerWidth <= 539) {
     table.style.transform = "scale(1.2)";
